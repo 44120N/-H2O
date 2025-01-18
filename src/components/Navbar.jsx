@@ -88,7 +88,7 @@ const Navbar = () => {
                 ))}
                 <ListItem
                     component={Link}
-                    to={`./game/quiz`}
+                    to={`./quiz`}
                     sx={{
                         color: "white !important",
                         textDecoration: "none",
@@ -108,7 +108,7 @@ const Navbar = () => {
                 </ListItem>
                 <ListItem
                     component={Link}
-                    to={`./game/rainwater`}
+                    to={`./game`}
                     sx={{
                         color: "white !important",
                         textDecoration: "none",
@@ -218,14 +218,14 @@ const Navbar = () => {
                             <MenuItem
                                 onClick={handleGameMenuClose}
                                 component={Link}
-                                to="./game/quiz"
+                                to="./quiz"
                             >
                                 Quiz
                             </MenuItem>
                             <MenuItem
                                 onClick={handleGameMenuClose}
                                 component={Link}
-                                to="./game/rainwater"
+                                to="./game"
                             >
                                 Rainwater Collection
                             </MenuItem>
